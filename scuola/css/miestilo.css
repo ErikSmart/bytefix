@@ -1,0 +1,82 @@
+/*principal*/
+.fondo {background: url("../img/cole.jpg");   background-repeat: no-repeat; background-size: cover;  width: 100%; height: 700px;}
+h1, h3, h5, h4, h2 { letter-spacing: 3px;}
+h1 { color: #fff; font-size: 40px;}
+h1.negro  {color: #000;}
+.negro {color: #000;}
+h5 {font-size: 18px;}
+h3 {color: #f1c11a; font-size: 18px;}
+#letra-blanca{color: #fff;}
+.jumbotron {background-color: #f1c11a; padding-top: 15px; padding-bottom: 15px;}
+.container .jumbotron, .container-fluid .jumbotron { border-radius: 0px;}
+/*menu*/
+a:focus, a:hover { color: #fff; text-decoration: none; }
+a {color: #fff;}
+.nav>li>a:hover { background-color: transparent;}
+.nav>li>a:focus,
+.nav>li>a:hover {background-color: transparent;}
+.navbar-toggle .icon-bar {background-color:#fff;}
+.navbar-toggle {background-color: #000; }
+footer { padding-top: 100px; padding-bottom: 100px; }
+/* footer  */
+footer { background: #111112; }
+footer .copyright-text { padding-top: 10px; }
+footer a { color: #fff;}
+footer a:hover { color: #FF6;}
+/* svg */
+.svgcolor-light { position: relative; bottom: 104px; }
+.svgcolor-light > path {  fill: white; stroke: white; stroke-width: 0; }
+/* contacto section  */
+#contact .form-control { background: transparent;  border: 1px solid #000;  border-radius: 0px; box-shadow: none; font-size: 16px; margin-bottom: 16px; transition: all 0.4s ease-in-out; }
+#contact .form-control:hover { border-color: #000; }
+#contact input {height: 55px;}
+#contact input[type='submit'] { background: #242424; border: none; color: #ffffff; font-size: 15px; font-weight: 400; letter-spacing: 2px; transition: all 0.4s ease-in-out; margin-top: 10px;}
+#contact input[type='submit']:hover { background: #f1c11a; }
+
+/*XS Extra Small | Vetical*/
+@media (max-width: 480px) {}
+/* XS Extra Small | Horizontal */
+@media (max-width: 767px) {}
+/* SM | Vertical tabletas*/
+@media (min-width: 768px) and (max-width: 991px) {}
+/* MD Medium | Horizontal tabletas*/
+@media (min-width: 992px) and (max-width: 1199px) {}
+/* LG Large */
+@media (min-width: 1200px) {}
+/*Adicional*/
+.blanco {color: #fff;}
+/* feature section */
+#feature {
+  background: #f1c11a;
+}
+
+#feature .icon {
+  color: #ffffff;
+  font-size: 42px;
+  padding-right: 14px;
+}
+
+#feature p {
+  color: #333;
+}
+
+#feature .btn {
+    background: transparent;
+    border: 3px solid #ffffff;
+    border-radius: 0px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 14px 36px;
+    margin-top: 62px;
+    margin-right: 16px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#feature .btn:hover {
+  background: #ffffff;
+  color: #333;
+  border-color: transparent;
+}
